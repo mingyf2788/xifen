@@ -1,0 +1,13 @@
+# Request
+POST http://localhost:8080/admin
+
+ {
+ 	"userId": "String",
+ 	"password": "String",
+ 	"tableId": "String",
+ 	"tableTime": "String",
+ 	"tableType": "String",
+ 	"usrPhone": "String",
+ 	"isDelete": "Boolean",
+ 	"foodlist" : []
+ }
